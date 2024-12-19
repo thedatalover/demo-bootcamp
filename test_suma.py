@@ -10,7 +10,7 @@ class TestSumar(unittest.TestCase):
         self.assertEqual(sumar(-1, 1), 0)
         self.assertEqual(sumar(-1, -1), -2)
         self.assertEqual(sumar(4, 2), 6)
-        self.assertEqual(sumar(14, 2), 16)
+        self.assertEqual(sumar(14, 2), 15)
 
 if __name__ == '__main__':
     unittest.main()
